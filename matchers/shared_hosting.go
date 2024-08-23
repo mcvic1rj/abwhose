@@ -40,6 +40,7 @@ var SharedHosts = []Matcher{
 	{OnlineForm{"Notion", "https://www.notion.so/Report-inappropriate-content-9feb9f2f9d8c40b1b7d289b155907de0"}, isSubDomainOf("notion.so", "notion.com")},
 	{AbuseEmail{"Square", "spoof@squareup.com"}, isSubDomainOf("square.site")},
 	{OnlineForm{"Webflow", "https://support.webflow.com/resources/report-spam"}, isSubDomainOf("webflow.io")},
+	{OnlineForm{"Webhook.site", "https://support.webhook.site/open.php"}, isSubDomainOf("webhook.site")},
 	{OnlineForm{"Weebly", "https://www.weebly.com/uk/spam"}, isSubDomainOf("weebly.com")},
 	{OnlineForm{"Yola", "https://helpcenter.yola.com/hc/en-us/requests/new?ticket_form_id=360001504300"}, isSubDomainOf("yolasite.com")},
 	{OnlineForm{"Fleek", "https://form.typeform.com/to/BzFH0anw?typeform-source=fleek.co"}, isSubDomainOf("fleek.co")},
